@@ -28,7 +28,7 @@ def password_leak_counts(hashes, hash_to_check):
 
 def main():
     argument = []
-    n = int(input("Enter number of elements : "))
+    n = int(input("Enter number of passwords you wanna try: "))
     for i in range(0, n):
         ele = input()
         argument.append(ele)
